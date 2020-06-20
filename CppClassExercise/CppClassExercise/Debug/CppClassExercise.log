@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\anila\Dropbox\Metu Phd Work\Courses\Computer Graphics\CppExer\ClassTrials\CppClassExercise\CppClassExercise\main.cpp(14,22): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\anila\Dropbox\Metu Phd Work\Courses\Computer Graphics\CppExer\ClassTrials\CppClassExercise\CppClassExercise\main.cpp(28,1): warning C4305: '=': 'double' iken 'float' olarak kesildi
+  CppClassExercise.vcxproj -> C:\Users\anila\Dropbox\Metu Phd Work\Courses\Computer Graphics\CppExer\ClassTrials\CppClassExercise\Debug\CppClassExercise.exe

@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\anila\Documents\GitHub\Cpp-Codes-and-Practices\CppTemplateOperations\TemplateOperations\TemplateOperations\main.cpp(84,63): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\anila\Documents\GitHub\Cpp-Codes-and-Practices\CppTemplateOperations\TemplateOperations\TemplateOperations\main.cpp(89,34): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+C:\Users\anila\Documents\GitHub\Cpp-Codes-and-Practices\CppTemplateOperations\TemplateOperations\TemplateOperations\main.cpp(97,26): warning C4305: '=': 'double' iken 'float' olarak kesildi
+C:\Users\anila\Documents\GitHub\Cpp-Codes-and-Practices\CppTemplateOperations\TemplateOperations\TemplateOperations\main.cpp(98,21): warning C4305: '=': 'double' iken 'float' olarak kesildi
+  Sample.cpp
+C:\Users\anila\Documents\GitHub\Cpp-Codes-and-Practices\CppTemplateOperations\TemplateOperations\TemplateOperations\Sample.cpp(5,15): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\anila\Documents\GitHub\Cpp-Codes-and-Practices\CppTemplateOperations\TemplateOperations\TemplateOperations\Sample.cpp(11,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\anila\Documents\GitHub\Cpp-Codes-and-Practices\CppTemplateOperations\TemplateOperations\TemplateOperations\Sample.cpp(52,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  Kod Üretiliyor...
+  TemplateOperations.vcxproj -> C:\Users\anila\Documents\GitHub\Cpp-Codes-and-Practices\CppTemplateOperations\TemplateOperations\Debug\TemplateOperations.exe

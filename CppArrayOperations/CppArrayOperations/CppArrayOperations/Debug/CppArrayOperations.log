@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\anila\Dropbox\Metu Phd Work\Courses\Computer Graphics\CppExer\ClassTrials\CppArrayOperations\CppArrayOperations\CppArrayOperations\main.cpp(57,45): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+  CppArrayOperations.vcxproj -> C:\Users\anila\Dropbox\Metu Phd Work\Courses\Computer Graphics\CppExer\ClassTrials\CppArrayOperations\CppArrayOperations\Debug\CppArrayOperations.exe

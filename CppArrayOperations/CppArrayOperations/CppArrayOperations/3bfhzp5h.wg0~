@@ -1,0 +1,70 @@
+#include <iostream>
+using namespace std;
+float topla(float[],  const int);
+
+void swapUsingAddress(int* m, int* n) {
+	int temp = *m;
+	temp *= temp;
+	*m = *n;
+	*n = temp;
+}
+
+void ArrayOperationUsingAddress(float x[], const int N_size) {
+	
+	for (int i=0; i < N_size; i++)
+		x[i] = x[i] * x[i];
+}
+
+int main()
+{   
+
+	int a, b;
+	int* x;                                            // pointer variable
+	const int N_size = 4;                                        // size of the sample array
+	float** Sum;                                       // dynamic array for element wise summation
+	float SampleArray[4] = { 2.7, 56, 7.8, 9.1 };      // Sample array
+	cout << "Dizi elemanlari: ";                      
+
+	ArrayOperationUsingAddress(SampleArray, 4);
+
+	for (int i = 0; i <= 3; i++)
+		cout << SampleArray[i] << " ";
+	cout << endl;
+	cout << "Sum of the elements of the arary =" << topla(SampleArray, N_size) << endl;
+
+	cout << "Enter two numbers A & B" << endl; cin >> a;
+	cin >> b;
+	cout << "Value of A before swapping: " << a << endl;
+	cout << "Value of B before swapping: " << b << endl;
+
+	swapUsingAddress(&a, &b); // Passing address of a and b
+
+	cout << "---------------------Swapping--------------------------" << endl;
+	cout << "Value of A after swapping: " << a << endl;
+	cout << "Value of B after swapping: " << b << endl;
+
+	x = &a;                        // store address of var in pointer variable
+
+	// print the address storted in x pointer varibale
+	cout << "Address stored in x variable: ";
+	cout << x << endl;
+
+	// print the value stored in x pointer varibale
+	cout << "Address stored in x variable: ";
+	cout << *x << endl;
+
+
+
+	return 0;
+
+}
+
+float topla(float par[], const int N_size)
+{   
+	//float Sum[N_size];
+	float toplam = 0.0;
+	for (int i = 0; i < N_size; i++)
+		toplam += par[i];                            // Summation of all elements in the array
+	return toplam;
+}
+
